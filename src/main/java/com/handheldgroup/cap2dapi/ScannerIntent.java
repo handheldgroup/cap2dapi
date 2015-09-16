@@ -19,7 +19,7 @@ public class ScannerIntent extends Intent {
 
     /**
      * Contains the barcode type as a Char<br>
-     * Use {@link com.handheldgroup.cap2dapi.SsiCodeTypes#getName(char) SsiPacket.CodeTypes.getName} method to get the name for this type.
+     * Use {@link com.handheldgroup.cap2dapi.SsiCodeTypes#getName(int) SsiPacket.CodeTypes.getName} method to get the name for this type.
      */
     public static final String EXTRA_BARCODE_TYPE = "com.handheld.scannercap.extra.TYPE";
 

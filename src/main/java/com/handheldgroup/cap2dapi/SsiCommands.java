@@ -2,9 +2,7 @@ package com.handheldgroup.cap2dapi;
 
 import java.lang.reflect.Field;
 
-/**
- * Created by sg on 14.09.2015.
- */
+@SuppressWarnings("unused")
 public class SsiCommands {
     public static String getName(char type){
         Field[] fields = SsiCommands.class.getDeclaredFields();

@@ -1,14 +1,14 @@
-Add libary
-=====
+# Usage
+## Add libary
+
 Add the libary to your project by adding this to your gradle file
 ```gradle
 dependencies {
-    compile 'com.handheldgroup.cap2dapi:cap2dapi:1.0.0'
+    compile 'com.handheldgroup.cap2dapi:cap2dapi:1.1.0'
 }
 ```
 
-Usage
-=====
+## Start scanning
 To start the scanner, call the following code
 ```java
 new ScannerIntent.Builder()
@@ -29,3 +29,12 @@ registerReceiver(new BroadcastReceiver() {
     }
 }, new IntentFilter(ScannerIntent.INTENT_SCAN_RESULT));
 ```
+
+# Release Notes
+
+### Version 1.1.0
+ - Added all common CodeTypes
+
+### Version 1.0.0
+ - Initial release
+
