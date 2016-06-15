@@ -1,3 +1,4 @@
+![Current version](https://img.shields.io/bintray/v/s-gruber-handheld/handheldgroup/cap2dapi.svg?maxAge=2592000&style=flat-square&label=Current%20version "Current version")
 # Usage
 ## Add libary
 
